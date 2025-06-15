@@ -19,7 +19,7 @@ http.createServer((req,res)=>{
     var myuri = url.parse(req.url).pathname
     var filename = path.join(process.cwd(),unescape(myuri));            //join pass two perameter     in documention -> process 
 console.log('File you are looking for is:' + filename);
-var loadfile;
+var loadfile;            //file is loading here
 try{
     loadfile = fs.lstatSync(filename);
 }catch (error){
