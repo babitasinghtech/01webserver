@@ -1,0 +1,12 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "let create a server page",
+  "license": "ISC",
+  "author": "Babita Singh",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
